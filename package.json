@@ -1,0 +1,28 @@
+{
+  "name": "chatbot-saas",
+  "version": "1.0.0",
+  "description": "Chatbot SaaS avec Groq + Gemini + Supabase",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "groq-sdk": "^0.3.0",
+    "@google/generative-ai": "^0.3.0",
+    "axios": "^1.6.0",
+    "react-markdown": "^9.0.0",
+    "react-easy-crop": "^10.0.0",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
+  }
+}
